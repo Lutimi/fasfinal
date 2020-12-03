@@ -7193,11 +7193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\misat\\OneDrive\\Desktop\\UserProfile\\UsuarioProfileService.Data\\UsuarioProfileService.Data.csproj",
+      "projectUniqueName": "C:\\Users\\misat\\OneDrive\\Desktop\\sadsad\\fasfinal\\UsuarioProfileService.Data\\UsuarioProfileService.Data.csproj",
       "projectName": "UsuarioProfileService.Data",
-      "projectPath": "C:\\Users\\misat\\OneDrive\\Desktop\\UserProfile\\UsuarioProfileService.Data\\UsuarioProfileService.Data.csproj",
+      "projectPath": "C:\\Users\\misat\\OneDrive\\Desktop\\sadsad\\fasfinal\\UsuarioProfileService.Data\\UsuarioProfileService.Data.csproj",
       "packagesPath": "C:\\Users\\misat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\misat\\OneDrive\\Desktop\\UserProfile\\UsuarioProfileService.Data\\obj\\",
+      "outputPath": "C:\\Users\\misat\\OneDrive\\Desktop\\sadsad\\fasfinal\\UsuarioProfileService.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7217,8 +7217,8 @@
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "C:\\Users\\misat\\OneDrive\\Desktop\\UserProfile\\UsuarioProfileService.Entities\\UsuarioProfileService.Entities.csproj": {
-              "projectPath": "C:\\Users\\misat\\OneDrive\\Desktop\\UserProfile\\UsuarioProfileService.Entities\\UsuarioProfileService.Entities.csproj"
+            "C:\\Users\\misat\\OneDrive\\Desktop\\sadsad\\fasfinal\\UsuarioProfileService.Entities\\UsuarioProfileService.Entities.csproj": {
+              "projectPath": "C:\\Users\\misat\\OneDrive\\Desktop\\sadsad\\fasfinal\\UsuarioProfileService.Entities\\UsuarioProfileService.Entities.csproj"
             }
           }
         }
