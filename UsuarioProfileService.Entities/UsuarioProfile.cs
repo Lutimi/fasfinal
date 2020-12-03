@@ -7,25 +7,25 @@ namespace UsuarioProfileService.Entities
     public partial class UsuarioProfile
     {
         
-     
+        // ID
         public int UsuarioId { get; set; }
-   
-        [Required(ErrorMessage = "Nombre asdasdsda")]
-        [StringLength(20, ErrorMessage = "Nombre permite hasta 2asdasdsd")]
+        // NOMBRE
+        [Required(ErrorMessage = "Nombre es requerido")]
+        [StringLength(20, ErrorMessage = "Nombre permite hasta 20 caracteres")]
         [DataType(DataType.Text)]
         public string Nombre { get; set; }
-  
+        // APELLIDO
         [Required(ErrorMessage = "Apellido es requerido")]
-        [StringLength(20, ErrorMessage = "Apellido permite asdasdads")]
+        [StringLength(20, ErrorMessage = "Apellido permite hasta 20 caracteres")]
         [DataType(DataType.Text)]
         public string Apellido { get; set; }
-      
-        [StringLength(10, ErrorMessage = "Celular asd adsdas")]
+        // CELULAR
+        [StringLength(10, ErrorMessage = "Celular permite 10 caracteres")]
         [DataType(DataType.PhoneNumber)]
         [Phone]
         public string Celular { get; set; }
-  
-        [StringLength(50, ErrorMessage = "Correo permite asdas")]
+        // CORREO
+        [StringLength(50, ErrorMessage = "Correo permite 50 caracteres")]
         [DataType(DataType.EmailAddress)]
         [EmailAddress]
         public string Correo { get; set; }
